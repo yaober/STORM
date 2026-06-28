@@ -7,16 +7,6 @@ graph autoencoder** learns a per-cell *niche embedding* from the spatial
 neighbourhood graph; those embeddings are clustered into motifs, which are then
 characterized biologically and compared across conditions.
 
-This repository is a **self-contained, reviewer-facing extract** of the STORM
-codebase. It contains the **core model-training code** and a few **core
-analyses** as Jupyter notebooks, plus a committed **synthetic example dataset** so
-the whole pipeline runs end-to-end in minutes on a laptop — no patient data, no
-absolute paths, no cluster required. The notebooks are committed **already
-executed** so the figures are visible without running anything.
-
-> This is not the full study codebase. It is a minimal, runnable demonstration of
-> the method and its main analysis steps for peer review.
-
 ## What's here
 
 ```
