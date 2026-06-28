@@ -1,0 +1,19 @@
+# Generated pipeline artifacts (regenerate by running the notebooks)
+outputs/*
+!outputs/.gitkeep
+
+# The example .h5ad data is committed so the notebooks run out of the box,
+# but if you regenerate a larger cohort keep it out of git:
+# data/example/*.h5ad
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+env/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

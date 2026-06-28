@@ -1,0 +1,29 @@
+# Core dependencies for the STORM reviewer pipeline.
+# Versions below are the ones this example repo was tested against; nearby
+# versions should work. PyTorch / PyG wheels are CUDA-specific — install the
+# build matching your platform (a CPU-only build is fine; the notebooks fall
+# back to CPU automatically).
+
+numpy==1.26.3
+pandas==2.0.0
+scipy==1.13.1
+scikit-learn==1.5.1
+statsmodels==0.14.2
+
+scanpy==1.10.2
+anndata==0.10.8
+umap-learn==0.5.6
+
+seaborn==0.13.2
+matplotlib==3.9.1
+networkx==3.2.1
+tqdm
+
+# Deep learning — install the wheel matching your CUDA/CPU setup.
+# See https://pytorch.org and https://pytorch-geometric.readthedocs.io
+torch==2.5.1
+torch-geometric==2.6.1
+
+# To run / re-execute the notebooks
+jupyter
+nbconvert
