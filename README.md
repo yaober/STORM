@@ -64,9 +64,6 @@ example cohort trains in a couple of minutes either way.
 5. **Export** embeddings, motif labels, per-edge attention, and figures to
    `outputs/`.
 
-> **Demo vs. paper hyper-parameters.** `Config` in notebook 01 is scaled down for a
-> fast demo (fewer epochs/patches, 8 motifs). The values used in the study are
-> noted inline (e.g. 100 epochs, 10 motifs). The model architecture is unchanged.
 
 ## The analyses
 
