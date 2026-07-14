@@ -1,4 +1,4 @@
-# STORM — reviewer code & runnable example
+# STORM
 
 **STORM** (*Spatial Topology analysis of Recurrent Motifs*) discovers recurrent
 spatial **motifs** in single-cell spatial transcriptomics (10x Xenium) of
